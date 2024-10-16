@@ -1,0 +1,1317 @@
+#home
+{
+    height: 100vh;
+    width: 100%;
+}
+.container
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/officewomen.jpg);
+    background-size: 100% 100%;
+}
+.top
+{
+    height: 4vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+.a 
+{
+    margin-left:2% ;
+}
+.b
+{
+    margin-right: 3%;
+}
+.c 
+{
+    margin-left: 3%;
+}
+.box1
+{
+    height: 5vh;
+    width: 20%;
+    color: white;
+    line-height: 30px;
+}
+.box2
+{
+    height: 5vh;
+    width: 20%;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.box3
+{
+    height: 4vh;
+    width: 15%;
+    color: white;
+    background-color: rgb(118, 174, 197);
+    text-align: center; line-height: 30px;
+}
+.menu1
+{
+    height: 15vh;
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 28%;
+    position: fixed;
+}
+.menubar ul li{
+    list-style: none;
+    color: grey;
+    font-size: larger;
+    line-height: 60px;
+    margin-right: 0.5%;
+    position: sticky;
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.menubar ul li:hover
+{
+    color: white;
+}
+.button
+{
+    height: 5vh;
+    width: 8%;
+    background-color: rgb(162, 36, 36);
+    color: white;
+    margin-top: 2.5%;
+    text-align: center;
+    margin-right: 1%;
+    border-radius: 5%;
+    line-height: 30px;
+}
+.textbox
+{
+    height: 30vh;
+    width: 45%;
+    margin-top: 15%;
+    margin-left: 10%;
+    color: white;
+}
+
+.button1
+{
+    height: 8vh;
+    width: 78%;
+    background-color: white;
+    color: grey;
+    border-radius: 1%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-inline-start: 2%;
+}
+.subbutton
+{
+    height: 6vh;
+    width: 16%;
+    background-color:rgb(162, 36, 36);
+    color: white;
+    text-align: center;
+    line-height: 38px;
+    margin-right: 1.6%;
+    border-radius: 2%;
+    margin-left: 59%;
+}
+.arrow
+{
+    width: 3%;
+    height: 6vh;
+    background-color: red;
+    color: white;
+    margin-left: 94%;
+    margin-top: 12%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+}
+.ar
+{
+    height: 4vh;
+    width: 80%;
+    text-align: center;
+    margin-top: 6s%;
+}
+.container2
+{
+    height: 108vh;
+    width: 100%;
+    background-color: lightgrey;
+}
+.iconbox
+{
+    height: 18vh;
+    width: 100%;
+    background-color: white;
+}
+.boxa
+{
+    height: 40vh;
+    width: 30%;
+    float: left;
+    margin-top: 9%;
+    margin-left: 6%;
+    margin-right: 2%;
+}
+.boxb
+{
+    height: 80svh;
+    width: 25%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:4%;
+}
+.boxb1
+{
+    height: 38vh;
+    width: 100%;
+    border-radius: 3%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxb2
+{
+    height: 38vh;
+    width: 100%;
+    border-radius: 3%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxc
+{
+    height: 80vh;
+    width: 25%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
+.boxc1
+{
+    height: 38vh;
+    width: 100%;
+    border-radius: 3%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxc2
+{
+    height: 38vh;
+    width: 100%;
+    border-radius: 3%;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.i 
+{
+    color: red;
+}
+.circle
+{
+    height: 10vh;
+    width: 10vh;
+    background-color: lightgrey;   
+    padding: 10px;
+    margin-top: 3%;
+    margin-left: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 69%;
+}
+.text
+{
+    width: 85%;
+    height: 22vh;
+}
+.aboutbutton
+{
+    height: 3.5vh;
+    width: 20%;
+    background-color: rgb(228, 216, 218);
+    color: red;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 7%;
+    line-height: normal;
+}
+.readmore
+{
+    height: 5vh;
+    width: 26%;
+    color: white;
+    background-color: red;
+    font-size: large;
+    padding-left: 10px;
+    padding-top: 2%;
+    border-radius: 7%;
+}
+.a
+{
+   padding-left: 2%;
+}
+.imagebox
+{
+    height: 40vh;
+    width: 100%;
+    background-image: url(images/windowview.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.no1, .no2, .no3, .no4
+{
+    height: 20vh;
+    width: 10%;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+/* services */
+#Services
+{
+    height: 122vh;
+    width: 100%;
+    border: 2px solid red;
+}
+.container3
+{
+    height: 120vh;
+    width: 100%;
+    border: 1px solid black;
+}
+.header3
+{
+    height: 16vh;
+    width: 100%;
+    text-align: center;
+}
+.bigb
+{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+.b1
+{
+    height: 82vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7%; 
+}
+   
+.imgtxt1
+{
+    height: 25vh;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgtxt2
+{
+    height: 25vh;
+    width: 99%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.imgtxt3
+{
+    height: 25vh;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b2
+{
+    height: 82vh;
+    width: 40%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgtxt4
+{
+    height: 25vh;
+    width: 99%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.imgtxt5
+{
+    height: 25vh;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgtxt6
+{
+    height: 25vh;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line3
+{
+    height: 2px;
+    width: 25%;
+    background-color: red;
+}
+.outer3
+ {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+.services_box
+{
+    font-size: x-large  ;
+    width: 15%;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4%;
+}
+.img1
+{
+    height: 20vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt1
+{
+    height: 20vh;
+    width:78%;
+}
+.img2
+{
+    height: 20vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt2
+{
+    height: 20vh;
+    width:78%;
+}
+.img3
+{
+    height: 20vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt3
+{
+    height: 20vh;
+    width:78%;
+}
+.img4
+{
+    height: 20vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt4
+{
+    height: 20vh;
+    width:78%;
+}
+.img5
+{
+    height: 20vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt5
+{
+    height: 20vh;
+    width:78%;
+}
+.img6
+{
+    height: 20vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt6
+{
+    height: 20vh;
+    width:78%;
+}
+.l 
+{
+    height: 2vh;
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+}
+.red
+{
+    height: 0.2vh;
+    width: 8%;
+    background-color: red;
+}
+.grey
+{
+    height: 0.2vh;
+    width: 92%;
+    background-color: grey;
+}
+.h2:hover
+{
+   color: red;
+}
+.dot1
+{
+    z-index: -1;
+    height: 4vh;
+    width: 4vh;
+    background-color: rgba(255, 0, 0,0.3);
+    border-radius: 50%;
+    margin-top: 43px;
+     margin-left: -12px;
+}
+.dot2
+{
+    z-index: -1;
+    height: 4vh;
+    width: 4vh;
+    background-color: rgba(255, 0, 0,0.3);
+    border-radius: 50%;
+    margin-top: 56px;
+     margin-left: -14px;
+}
+.dot3
+{
+    z-index: -1;
+    height: 4vh;
+    width: 4vh;
+    background-color: rgba(255, 0, 0,0.3);
+    border-radius: 50%;
+    margin-top: 43px;
+     margin-left: -14px;
+}
+/* features */
+#Features
+{
+    height: 160vh;
+    width: 100%;
+    border: 2px solid red;
+}
+.container4
+{
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(232, 229, 229);
+}
+.header4
+{
+    height: 18vh;
+    width: 100%;
+    text-align: center;
+}
+.outer4
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}  
+.line4
+{
+    height: 2px;
+    width: 5%;
+    background-color: red;
+    margin-top: 4.3%;
+}
+.features
+{
+    font-size: x-large  ;
+    width: 6%;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4%;
+}
+.middlebox
+{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.lefttxt
+{
+    height: 40vh;
+    width: 32%;
+    margin-right: 2%;
+    margin-top: 4.8%;
+}
+.rightbox
+{
+    height: 60vh;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+ .r1
+{
+    height: 45vh;
+    width: 60vh;
+    margin-top: 7%;
+    margin-right: 21%;
+    background-image: url(images/light\,jpg);
+    background-size: 100% 100%;
+    border: 4px solid white;
+     position:absolute ; 
+} 
+ .r2
+{
+    height: 45vh;
+    width: 60vh;
+    background-image: url(images/stairs.jpg);
+    background-size: 100% 100%;
+    border: 4px solid white;
+    
+} 
+.buttona
+{
+    height: 5vh;
+    width: 20%;
+    background-color: red;
+    color: white;
+   text-align: center;
+   line-height: 35px;
+   border-radius: 5%;
+}
+.bottom4
+{
+    height: 58vh;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.limg
+{
+    height: 55vh;
+    width: 45%;
+    margin-right: 6%;
+    background-image: url(images/circleimg.jpg);
+    background-size: 100% 100%;
+    border: 4px solid white;
+}
+.rtext
+{
+    height: 45vh;
+    width: 33%;
+}
+.tick
+{
+    color: red;
+}
+/* portfolio */
+#protfolio
+{
+    height: 161vh;
+    width: 100%;
+    border: 2px solid red;
+}
+.container5
+{
+    height: 160vh;
+    width: 100%;
+}
+.header5
+{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+}
+.portfolio
+{
+    height: 6vh;
+    width: 7%;
+    text-align: center;
+}
+.navbar
+{
+    height: 8vh;
+    width: 100%;
+}
+.photos
+{
+    height: 130vh;
+    width: 100%;
+    display: flex;
+}
+.Left1
+{
+    height: 112vh;
+    width: 28%;
+    margin-left: 6%;
+    display: flex;
+   flex-direction: column;
+}
+.Middle1
+{
+    height: 130vh;
+    width: 28%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.Right1
+{
+    height: 120vh;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+}
+.pic1
+{
+    height: 40vh;
+    width: 100%;
+    background-image: url(images/bottle.jpg);
+    background-size: 100% 100%;
+}
+.pic2
+{
+    height: 70vh;
+    width: 100%;
+    margin-top: 7%;
+    background-image: url(images/table.jpg);
+    background-size: 100% 100%;
+}
+.pic3
+{
+    height: 30vh;
+    width: 100%;
+    background-image: url(images/cofee.jpg);
+    background-size: 100% 100%;
+}
+.pic4
+{
+    height: 65vh;
+    width: 100%;
+    margin-top: 7%;
+    background-image: url(images/lamp1.jpg);
+    background-size: 100% 100%;
+}
+.pic5
+{
+    height: 30vh;
+    width: 100%;
+    margin-top: 7%;
+    background-image: url(images/watch1.jpg);
+    background-size: 100% 100%;
+}
+.pic6
+{
+    height: 27vh;
+    width: 100%;
+    background-image: url(images/plant1jpg.jpg.crdownload);
+    background-size: 100% 100%;
+}
+.pic7
+{
+    height: 27vh;
+    width: 100%;
+    margin-top: 7%;
+    background-image: url(images/sunglasses.jpg);
+    background-size: 100% 100%;
+}
+.pic8
+{
+    height: 27vh;
+    width: 100%;
+    margin-top: 7%;
+    background-image: url(images/camera.jpg);
+    background-size: 100% 100%;
+}
+.pic9
+{
+    height: 27vh;
+    width: 100%;
+    margin-top: 7%;
+    background-image: url(images/waterglass1.jpg);
+    background-size: 100% 100%;
+}
+.line5
+{
+    height: 2px;
+    width: 6%;
+    margin-bottom: 0.5%;
+    background-color: red;
+}
+.outer5
+ {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    height: 12vh;
+}
+.list ul li
+{
+    height: 5vh;
+    width: 5%;
+    list-style: none;
+    text-align: center;
+    color: red;
+    line-height: 35px;
+    border-radius: 15px;
+    
+
+}
+.list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94%;
+}
+.list ul li:hover
+{
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+}
+.red
+{
+    background-color: red;
+    color: white;
+}
+
+/*  Team*/
+#Team
+{
+    height: 160vh;
+    width: 100%;
+    border: 2px solid red;
+}
+.container7
+{
+    height: 150vh;
+    width: 100%;
+    background-color: lightgray;
+}
+.header7
+{
+    height: 18vh;
+    width: 100%;
+    text-align: center;
+}
+.outer7
+{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.team
+{
+    height: 5vh;
+    width: 6%;
+}
+.line7
+{
+    height: 1%;
+    width: 4%;
+    background-color: red;
+    margin-top: 2.8%;
+}
+.profilea
+{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.profile1
+{
+    height: 60vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profile2
+{
+    height: 60vh;
+    width: 20%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profile3
+{
+    height: 60vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.p1
+{
+    height: 50vh;
+    width: 80%;
+    border: 5px solid white;
+    border-radius:50% ;
+    background-image: url(images/profile1.jpg);
+    background-size: 100% 100%;
+}
+.p2
+{
+    height: 12vh;
+    width: 100%;
+}
+.p3
+{
+    height: 10vh;
+    width: 100%;
+}
+.p4
+{
+    height: 50vh;
+    width: 80%;
+    border-radius: 50%;
+    background-image: url(images/profile2.jpg);
+    background-size: 100% 100%;
+    border: 5px solid white;
+}
+.p5
+{
+    height: 12vh;
+    width: 100%;
+}
+.p6
+{
+    height: 10vh;
+    width: 100%;
+}
+.p7
+{
+    height: 50vh;
+    width: 80%;
+    border-radius: 50%;
+    background-image: url(images/profile3.jpg);
+    background-size: 100% 100%;
+    border: 5px solid white;
+}
+.p8
+{
+    height: 12vh;
+    width: 100%;
+}
+.p9
+{
+    height: 10vh;
+    width: 100%;
+}
+.profileb
+{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.profile4
+{
+    height: 60vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profile5
+{
+    height: 60vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.profile6
+{
+    height: 60vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.p1b
+{
+    height: 50vh;
+    width: 80%;
+    border: 5px solid white;
+    border-radius:50% ;
+    background-image: url(images/profile4.jpg);
+    background-size: 100% 100%;
+}
+.p2b
+{
+    height: 12vh;
+    width: 100%;
+}
+.p3b
+{
+    height: 10vh;
+    width: 100%;
+}
+.p4b
+{
+    height: 50vh;
+    width: 80%;
+    border-radius: 50%;
+    background-image: url(images/profile5.jpg);
+    background-size: 100% 100%;
+    border: 5px solid white;
+}
+.p5b
+{
+    height: 12vh;
+    width: 100%;
+}
+.p6b
+{
+    height: 10vh;
+    width: 100%;
+}
+.p7b
+{
+    height: 50vh;
+    width: 80%;
+    border-radius: 50%;
+    background-image: url(images/profile6.jpg);
+    background-size: 100% 100%;
+    border: 5px solid white;
+}
+.p8b
+{
+    height: 12vh;
+    width: 100%;
+}
+.p9b
+{
+    height: 10vh;
+    width: 100%;
+}
+/* Contact */
+#Contact
+{
+    height: 160vh;
+    width: 100%;
+    border: 2px solid red;
+}
+.container8
+{
+    height: 150vh;
+    width: 100%;
+   
+}
+.header8
+{
+    height: 20vh;
+    width: 100%;
+   
+    text-align: center;
+}
+.outer8
+{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.contact
+{
+    height: 6vh;
+    width: 8%;
+    text-align: center;
+}
+.line8
+{
+    height: 0.3vh;
+    width: 5%;
+    background-color: red;
+    margin-top: 2.6%;
+}
+.middle
+{
+    height: 65vh;
+    width: 100%;
+  
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+}
+.left
+{
+    height: 52vh;
+    width: 42%;
+   
+    margin-left: 5.5%;
+}
+.right
+{
+    height: 53vh;
+    width: 42%;
+    margin-right: 5.5%;
+    margin-top: 0.5%;
+    background-color: rgba(223, 215, 215, 0.925);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom8
+{
+    height: 60vh;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between
+}
+.footer1
+{
+    height: 40vh;
+    width: 85%;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.f1
+{
+    height: 38vh;
+    width: 65vh;
+   
+}
+.f2
+{
+    height: 38vh;
+    width: 25vh;
+    
+}
+.f3
+{
+    height: 38vh;
+    width: 25vh;
+    
+}
+.f4
+{
+    height: 38vh;
+    width: 25vh;
+   
+}
+.footer2
+{
+    height: 15vh;
+    width: 85%;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(185, 178, 178);
+}
+.leftup
+{
+    height: 25vh;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.leftdown
+{
+    height: 25vh;
+    width: 100%;
+  
+    margin-top: 3.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.left1
+{
+    height: 24vh;
+    width: 45%;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: rgba(223, 215, 215, 0.925);
+}
+.left2
+{
+    height: 24vh;
+    width: 45%;
+    background-color: rgba(223, 215, 215, 0.925);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.left3
+{
+    height: 24vh;
+    width: 45%;
+    background-color: rgba(223, 215, 215, 0.925);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.left4
+{
+    height: 24vh;
+    width: 45%;
+    background-color: rgba(223, 215, 215, 0.925);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.red
+{
+    color: red;
+}
+.name_mail
+{
+    height:6vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.name
+{
+    height: 6vh;
+    width: 42%;
+    float: left;
+    background-color: white;
+    color: grey;
+    line-height: 40px;
+}
+.email
+{
+    height: 6vh;
+    width: 42%;
+    float: left;
+    background-color: white;
+    color: grey;
+    line-height: 40px;
+}
+.subject
+{
+    height: 6vh;
+    width: 90%;
+    background-color: white;
+    color: grey;
+    line-height: 40px;
+}
+.message
+{
+    height: 20vh;
+    width: 90%;
+    background-color: white;
+    color: grey;
+    line-height: 30px;
+}
+.sendmsg
+{
+    height: 6vh;
+    width: 25%;
+    background-color: red;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+.social
+{
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 50%;
+    height: 5vh;
+    width: 6vh;
+    margin-left: 2%;
+    text-align: center;
+    padding-top: 1.5%;
+}
+.social:hover
+{
+    border: 1px solid red;
+    color: red;
+}
+
+
